@@ -1,0 +1,38 @@
+body { 
+  background-image: url(Images/table.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  width: 110px;
+  height: 50px;
+  background-color: goldenrod;
+  border-style: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:hover {
+  color: goldenrod;
+  background-color: transparent;
+  border-style: solid;
+  border-color: goldenrod;
+  font-weight: bold;
+}
